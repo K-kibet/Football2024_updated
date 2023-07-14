@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="5dp"
+    app:cardPreventCornerOverlap="true"
+    android:layout_margin="10dp"
+    app:strokeColor="?attr/colorPrimary"
+    app:strokeWidth="1dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/imageTeam"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.8"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_launcher_foreground" />
+        <TextView
+            android:id="@+id/textTeam"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Atletico Madrid"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="10dp"
+            android:textSize="18sp"/>
+        <ImageView
+            android:id="@+id/buttonFavorite"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:scaleType="centerInside"
+            android:src="@drawable/baseline_star_outline_24"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Football livestream</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Applovin -->
+    <string name="sdk_key">8HpScxVFl32FFOVH9GKurkQfJF5ius9J2EvB7cbqrvwI6M08nEKOPfmRTVd9z4gJ57Zeq0rCeJATTcU_daAfve</string>
+    <string name="Interstitial_Ad_Unit">4a67526029b5b34d</string>
+    <string name="Banner_Ad_Unit">8b1e3908ba74f29e</string>
+    <string name="Facebook_App_Id">854589016023066</string>
+
+    <string name="more_apps_url">https://play.google.com/store/apps/developer?id=Maru developers</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:showAsAction="always"
+        android:title=""
+        android:icon="@drawable/baseline_more_vert_24"
+        android:iconTint="?attr/drawerItemColorChecked"
+        >
+        <menu>
+            <item
+                android:id="@+id/action_share_app"
+                android:orderInCategory="100"
+                android:title="Share App"
+                android:icon="@drawable/baseline_share_24"
+                app:showAsAction="never"
+                android:iconTint="?attr/drawerItemColorChecked"
+                />
+            <item
+                android:id="@+id/action_rate"
+                android:orderInCategory="100"
+                android:title="Rate"
+                android:icon="@drawable/baseline_star_rate_24"
+                app:showAsAction="never"
+                android:iconTint="?attr/drawerItemColorChecked"/>
+            <item
+                android:id="@+id/action_more_apps"
+                android:orderInCategory="100"
+                android:title="More Apps"
+                android:icon="@drawable/baseline_apps_24"
+                app:showAsAction="never"
+                android:iconTint="?attr/drawerItemColorChecked"/>
+        </menu>
+    </item>
+</menu>

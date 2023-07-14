@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FavoriteFragment"
+    >
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="HOT"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        app:drawableTint="@color/red"
+        app:drawableEndCompat="@drawable/baseline_whatshot_24"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_favorite"
+        android:layout_above="@id/adView"
+        android:layout_below="@id/title"/>
+    <com.applovin.mediation.ads.MaxAdView
+        android:id="@+id/adView"
+        xmlns:maxads="http://schemas.applovin.com/android/1.0"
+        maxads:adUnitId="@string/Banner_Ad_Unit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

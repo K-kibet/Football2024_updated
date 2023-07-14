@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Football2024" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/dark_blue</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/light_blue</item>
+        <item name="colorSecondaryVariant">@color/blue</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="drawerItemBackground">@color/blue</item>
+        <item name="drawerItemColorChecked">@color/white</item>
+        <item name="drawerItemColorNormal">@color/white</item>
+        <item name="navHeaderTitleColor">@color/white</item>
+        <item name="navHeaderDescriptionColor">@color/light_blue</item>
+        <item name="drawerBackground">@color/black</item>
+
+    </style>
+
+    <style name="Theme.NavigationDrawer" parent="ThemeOverlay.MaterialComponents.Dark">
+        <item name="android:scrollbarThumbVertical">@android:color/transparent</item>
+        <item name="colorControlHighlight">@color/blue</item>
+        <item name="colorPrimary">@color/blue</item>
+    </style>
+</resources>

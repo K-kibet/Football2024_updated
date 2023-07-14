@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "988342307794",
+    "project_id": "football2024-f741a",
+    "storage_bucket": "football2024-f741a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988342307794:android:9ea4de5c43ca15bff4d60b",
+        "android_client_info": {
+          "package_name": "com.codespear.football2024"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988342307794-g0uo1q1b4uncikdcb33pee09tt0l7g2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyFiTQQBiUqMj7_Qsm37Vfn26BoLiPFi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988342307794-g0uo1q1b4uncikdcb33pee09tt0l7g2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988342307794:android:9ce8220944a18806f4d60b",
+        "android_client_info": {
+          "package_name": "com.myapp.footballstream"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988342307794-g0uo1q1b4uncikdcb33pee09tt0l7g2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyFiTQQBiUqMj7_Qsm37Vfn26BoLiPFi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988342307794-g0uo1q1b4uncikdcb33pee09tt0l7g2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
