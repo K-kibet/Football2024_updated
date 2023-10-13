@@ -36,9 +36,125 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:988342307794:android:cb747da23377e64df4d60b",
+        "mobilesdk_app_id": "1:988342307794:android:9ce8220944a18806f4d60b",
         "android_client_info": {
           "package_name": "com.myapp.footballstream"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988342307794-g0uo1q1b4uncikdcb33pee09tt0l7g2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyFiTQQBiUqMj7_Qsm37Vfn26BoLiPFi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988342307794-g0uo1q1b4uncikdcb33pee09tt0l7g2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988342307794:android:0cfafa921a8a46eff4d60b",
+        "android_client_info": {
+          "package_name": "com.qlivee.qbet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988342307794-g0uo1q1b4uncikdcb33pee09tt0l7g2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyFiTQQBiUqMj7_Qsm37Vfn26BoLiPFi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988342307794-g0uo1q1b4uncikdcb33pee09tt0l7g2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988342307794:android:4ab0b9039e0f37cef4d60b",
+        "android_client_info": {
+          "package_name": "com.sourcecode.footballstream"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988342307794-g0uo1q1b4uncikdcb33pee09tt0l7g2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyFiTQQBiUqMj7_Qsm37Vfn26BoLiPFi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988342307794-g0uo1q1b4uncikdcb33pee09tt0l7g2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988342307794:android:993c5c2564cd3ddef4d60b",
+        "android_client_info": {
+          "package_name": "com.sourcecode.thorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988342307794-g0uo1q1b4uncikdcb33pee09tt0l7g2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyFiTQQBiUqMj7_Qsm37Vfn26BoLiPFi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988342307794-g0uo1q1b4uncikdcb33pee09tt0l7g2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988342307794:android:dbb2e6303f9ff74af4d60b",
+        "android_client_info": {
+          "package_name": "com.tvstream.footballlivestream"
         }
       },
       "oauth_client": [

@@ -37,8 +37,8 @@
         </activity>
 
         <meta-data
-            android:name="applovin.sdk.key"
-            android:value="@string/sdk_key" />
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/ADMOB_APP_ID"/>
     </application>
 
 </manifest>

@@ -11,12 +11,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:listitem="@layout/item_all"
-        android:layout_above="@id/adView"/>
-    <com.applovin.mediation.ads.MaxAdView
-        android:id="@+id/adView"
-        xmlns:maxads="http://schemas.applovin.com/android/1.0"
-        maxads:adUnitId="@string/Banner_Ad_Unit"
+        android:layout_above="@id/adViewContainer"/>
+    <FrameLayout
+        android:id="@+id/adViewContainer"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"/>
 </RelativeLayout>

@@ -1,16 +1,14 @@
 <resources>
-    <string name="app_name">Football livestream</string>
+    <string name="app_name">Football livestreaming HD</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-
-    <!--Applovin -->
-    <string name="sdk_key">8HpScxVFl32FFOVH9GKurkQfJF5ius9J2EvB7cbqrvwI6M08nEKOPfmRTVd9z4gJ57Zeq0rCeJATTcU_daAfve</string>
-    <string name="Interstitial_Ad_Unit">4a67526029b5b34d</string>
-    <string name="Banner_Ad_Unit">8b1e3908ba74f29e</string>
-    <string name="Facebook_App_Id">854589016023066</string>
-
+    <string name="ADMOB_APP_ID">ca-app-pub-6529555315456805~1951851437</string>
+    <string name="ADMOB_BANNER_AD_UNIT">ca-app-pub-6529555315456805/6713223521</string>
+    <string name="ADMOB_INTERSTITIAL_AD_UNIT">ca-app-pub-6529555315456805/1460896844</string>
     <string name="more_apps_url">https://play.google.com/store/apps/developer?id=Maru developers</string>
+    <string name="WEB_VIEW_URL">https://www.scorebat.com/embed/livescore</string>
+    <string name="ONESIGNAL_APP_ID">3891f929-438e-413f-b939-582d392bb056</string>
 </resources>

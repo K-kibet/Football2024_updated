@@ -10,21 +10,19 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <WebView
-            android:id="@+id/webview"
+            android:id="@+id/webView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toTopOf="@id/adView"/>
-        <com.applovin.mediation.ads.MaxAdView
-            android:id="@+id/adView"
-            xmlns:maxads="http://schemas.applovin.com/android/1.0"
-            maxads:adUnitId="@string/Banner_Ad_Unit"
+            app:layout_constraintBottom_toTopOf="@id/adViewContainer"/>
+        <FrameLayout
+            android:id="@+id/adViewContainer"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_height="wrap_content"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"/>
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
